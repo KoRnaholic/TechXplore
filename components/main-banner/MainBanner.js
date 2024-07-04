@@ -6,17 +6,17 @@ import microsoft from "../../public/icons/microsoft.svg";
 
 export default function MainBanner(props) {
   return (
-    <section className="ml-40 text-black flex justify-center items-center py-20 ">
-      <div className="flex flex-col gap-5">
-        <h1 className="text-5xl max-w-[350px] text-blue-900 font-semibold">
-          Reach out to new trading experience.
+    <section className=" ml-40 text-black flex justify-center items-center py-20 ">
+      <div className=" flex flex-col gap-8">
+        <h1 className="text-5xl max-w-[450px] leading-snug text-blue-900 font-semibold">
+          Start Investing Young, Dream Big!
         </h1>
         <p className="max-w-[400px]">
-          Bring your trading ventures go around the world, way beyond the space
-          of your trading account.
+          Empower kids with real-world financial skills through fun stock market
+          simulations and educational resources.
         </p>
-        <div className="flex gap-5">
-          <div className="flex justify-center px-4 py-2 items-center gap-2 bg-slate-600 bg-opacity-85 rounded-md">
+        <div className=" flex gap-8">
+          <div className="flex hover:-translate-y-2 transition-all duration-300 justify-center px-4 py-2 items-center gap-2 bg-slate-600 bg-opacity-85 rounded-md">
             <Image className="w-8 h-8" src={mcdonals} />
             <div>
               <p className="text-sm flex gap-3  text-white">
@@ -25,7 +25,7 @@ export default function MainBanner(props) {
               <p className="text-green-500">$113.06</p>
             </div>
           </div>
-          <div className="flex justify-center px-4 py-2 items-center gap-2 bg-slate-600 bg-opacity-85 rounded-md">
+          <div className="flex hover:-translate-y-2 transition-all duration-300  justify-center px-4 py-2 items-center gap-2 bg-slate-600 bg-opacity-85 rounded-md">
             <Image className="w-8 h-8" src={amazon} />
             <div>
               <p className="text-sm flex gap-3 text-white">
@@ -34,7 +34,7 @@ export default function MainBanner(props) {
               <p className="text-red-500">$86.08</p>
             </div>
           </div>
-          <div className="flex justify-center px-4 py-2 items-center gap-2 bg-slate-600 bg-opacity-85 rounded-md">
+          <div className="flex hover:-translate-y-2 transition-all duration-300  justify-center px-4 py-2 items-center gap-2 bg-slate-600 bg-opacity-85 rounded-md">
             <Image className="w-8 h-8" src={microsoft} />
             <div>
               <p className="text-sm flex gap-3 text-white">
@@ -45,7 +45,7 @@ export default function MainBanner(props) {
           </div>
         </div>
       </div>
-      <div className="ml-16 main-banner flex justify-center">
+      <div className="mt-20 ml-16 main-banner flex justify-center">
         <Image className="w-3/4" src={about} />
       </div>
     </section>

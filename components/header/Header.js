@@ -9,13 +9,17 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <nav className="flex justify-between bg-[#8a27f7] px-40 items-center">
+      <nav className="mb-20 fixed w-full flex justify-between bg-[#8a27f7] px-40 items-center z-50">
         <div className="flex justify-between w-full items-center">
           <div>
-            <Image className="w-48 h-20" src={logo} />
+            <Image className="w-48 h-20" src={logo} alt="Logo" />
           </div>
           <div onClick={() => setIsOpen(true)} className="cursor-pointer">
-            <Image className="w-10 h-10 rounded-full" src={avatar} />
+            <Image
+              className="w-10 h-10 rounded-full"
+              src={avatar}
+              alt="Avatar"
+            />
           </div>
         </div>
       </nav>

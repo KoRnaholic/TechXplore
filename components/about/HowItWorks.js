@@ -8,10 +8,10 @@ import arrow2 from "../../public/icons/arrow2.svg";
 export default function HowItWorks(props) {
   return (
     <>
-      <div className="py-20 bg-[#F4F2F9] flex items-center justify-center">
+      <div className="py-10 bg-[#F4F2F9] flex items-center justify-center">
         <section className="py-20 px-4 ">
           <div className="max-w-6xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6 text-blue-900">
+            <h2 className="text-4xl font-bold mb-6 text-blue-900">
               How It Works
             </h2>
             <p className="mb-12 text-gray-600">
@@ -42,7 +42,7 @@ export default function HowItWorks(props) {
                   <Image src={invest} />
                 </div>
                 <h3 className="text-xl font-semibold text-blue-900">
-                  Invest Your Money
+                  Get Budget to start with
                 </h3>
                 <p className="text-gray-600">
                   Create a new account to work that strategy by building out
