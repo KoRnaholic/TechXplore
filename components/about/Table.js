@@ -66,9 +66,9 @@ export default function Table() {
         <thead>
           <tr className="bg-purple-600">
             <th className="py-3 px-4 text-left">Name</th>
-            <th className="py-3 px-4 text-left">Price</th>
-            <th className="py-3 px-4 text-left">Daily Dividend</th>
-            <th className="py-3 px-4 text-left">Amounts</th>
+            <th className="py-3 px-4 text-left">Profit</th>
+            <th className="py-3 px-4 text-left">amount</th>
+            <th className="py-3 px-4 text-left">date</th>
             <th className="py-3 px-4 text-left">Deposit By</th>
             <th className="py-3 px-4 text-left">Currency</th>
           </tr>

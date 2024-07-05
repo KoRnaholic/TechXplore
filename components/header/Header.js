@@ -4,6 +4,9 @@ import Image from "next/image";
 import logo from "../../public/logo/futurisers.png";
 import avatar from "../../public/images/avatar.png";
 import { useState } from "react";
+import mcdonals from "../../public/icons/mcdonalds.svg";
+import amazon from "../../public/icons/amazon.svg";
+import microsoft from "../../public/icons/microsoft.svg";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,6 +24,8 @@ export default function Header() {
               alt="Avatar"
             />
           </div>
+          <a href="/api/auth/login">Login</a>
+          <a href="/api/auth/logout">Logout</a>
         </div>
       </nav>
 
@@ -44,14 +49,44 @@ export default function Header() {
 
           <nav className="px-4 py-2 flex justify-center flex-col items-center">
             <a href="#" className="block py-2">
-              Status
+              Elene
             </a>
             <a href="#" className="block py-2">
-              UserName
+              Status: Student
             </a>
             <a href="#" className="block py-2">
-              Link 3
+              Budget: $1000.99
             </a>
+
+            <div className="mt-10 flex flex-col gap-8">
+              <div className="flex hover:-translate-y-2 transition-all duration-300 justify-center px-10 py-2 items-center gap-2 bg-slate-600 bg-opacity-85 rounded-md">
+                <Image className="w-8 h-8" src={mcdonals} />
+                <div>
+                  <p className="text-sm flex gap-3  text-white">
+                    MCD <span>1.47%</span>
+                  </p>
+                  <p className="text-green-500">$113.06</p>
+                </div>
+              </div>
+              <div className="flex hover:-translate-y-2 transition-all duration-300  justify-center px-10 py-2 items-center gap-2 bg-slate-600 bg-opacity-85 rounded-md">
+                <Image className="w-8 h-8" src={amazon} />
+                <div>
+                  <p className="text-sm flex gap-3 text-white">
+                    ZMZN <span>-3.56%</span>
+                  </p>
+                  <p className="text-red-500">$86.08</p>
+                </div>
+              </div>
+              <div className="flex hover:-translate-y-2 transition-all duration-300  justify-center px-10 py-2 items-center gap-2 bg-slate-600 bg-opacity-85 rounded-md">
+                <Image className="w-8 h-8" src={microsoft} />
+                <div>
+                  <p className="text-sm flex gap-3 text-white">
+                    MSFT <span>1.18%</span>
+                  </p>
+                  <p className="text-green-500">$224.93</p>
+                </div>
+              </div>
+            </div>
           </nav>
         </div>
 

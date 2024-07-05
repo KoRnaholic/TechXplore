@@ -67,7 +67,7 @@ export default function CompaniesList() {
   return (
     <div className=" mt-20 bg-white flex flex-wrap gap-5 justify-center items-center">
       {stocks.map((company) => {
-        return <CompanyCard company={company} />;
+        return <CompanyCard key={company.name} company={company} />;
       })}
     </div>
   );
