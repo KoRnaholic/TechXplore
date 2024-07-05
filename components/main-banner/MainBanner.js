@@ -11,7 +11,7 @@ export default function MainBanner(props) {
         <h1 className="text-5xl max-w-[450px] leading-snug text-blue-900 font-semibold">
           Start Investing Young, Dream Big!
         </h1>
-        <p className="max-w-[400px]">
+        <p className="max-w-[400px] text-blue-900 font-semibold">
           Empower kids with real-world financial skills through fun stock market
           simulations and educational resources.
         </p>
@@ -29,7 +29,7 @@ export default function MainBanner(props) {
             <Image className="w-8 h-8" src={amazon} />
             <div>
               <p className="text-sm flex gap-3 text-white">
-                ZMZN <span>-3.56%</span>
+                AMZN <span>-3.56%</span>
               </p>
               <p className="text-red-500">$86.08</p>
             </div>

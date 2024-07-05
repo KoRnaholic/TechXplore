@@ -91,8 +91,8 @@ export default function CompanyCard({ company }) {
           <div className="flex hover:text-white items-center hover:bg-green-500 justify-center border border-green-500 rounded-lg p-2">
             <span className="  font-bold">300</span>
           </div>
-          <div className="flex hover:text-white items-center justify-center border border-green-500 rounded-lg p-2">
-            <span className=" hover:bg-green-500 font-bold">500</span>
+          <div className="flex hover:text-white items-center hover:bg-green-500 justify-center border border-green-500 rounded-lg p-2">
+            <span className="  font-bold">500</span>
           </div>
         </div>
         <div className="flex justify-between">

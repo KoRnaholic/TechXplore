@@ -25,6 +25,7 @@ export default function GetStarted() {
             <Image
               className="w-40 rounded-3xl rotate-6"
               src={mobile}
+              width={500}
               quality={100}
             />
           </div>

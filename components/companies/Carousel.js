@@ -17,7 +17,7 @@ export function CarouselSize() {
       opts={{
         align: "start",
       }}
-      className="w-full max-w-[1300px] "
+      className="mb-20 w-full max-w-[1300px] "
     >
       <CarouselContent>
         {stocks.map((company, index) => (
